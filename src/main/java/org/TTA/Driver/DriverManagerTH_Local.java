@@ -1,0 +1,42 @@
+package org.TTA.Driver;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import java.net.MalformedURLException;
+import java.util.Objects;
+
+public class DriverManagerTH_Local {
+//    BUt as far this is the bad practise insted off this use > > >
+
+    //    THread Local > >
+
+    public static final ThreadLocal<WebDriver> dr = new ThreadLocal<>();
+//    public static final ThreadLocal<Any thing you want to keep safe from thread keep here> dr=new ThreadLocal<>();
+
+
+    public static void setDriver(WebDriver driverRef) {
+        dr.set(driverRef);
+    }
+
+    public static WebDriver getDriver() {
+        return dr.get();
+
+    }
+
+    public static void unload() {
+        dr.remove();
+    }
+    public static void init() throws MalformedURLException {
+    if(Objects.isNull(DriverManagerTH_Local.getDriver())){
+        WebDriver driver=new ChromeDriver();
+        setDriver(driver);
+        }
+    }
+
+    public static void down() {
+        if (Objects.nonNull(DriverManagerTH_Local.getDriver())) {
+            getDriver().quit();
+            unload();
+        }
+    }
+}
