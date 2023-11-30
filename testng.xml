@@ -6,6 +6,7 @@
         <classes>
             <class name="org.example.VWOLogin_tests.LoginTest">
                 <methods>
+                    <include name="testLoginNegative"/>
                     <include name="testLoginPositive"/>
                 </methods>
             </class>
