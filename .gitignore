@@ -252,7 +252,9 @@ fabric.properties
 ### Java ###
 # Compiled class file
 *.class
-
+.idea
+allure-report
+allure-results
 # Log file
 *.log
 
@@ -261,7 +263,6 @@ fabric.properties
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
-
 # Package Files #
 *.jar
 *.war
