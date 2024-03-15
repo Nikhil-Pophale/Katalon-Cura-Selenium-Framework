@@ -245,7 +245,8 @@ fabric.properties
 # that are supposed to be shared within teams.
 
 .idea/*
-
+allure-report
+allure-results
 !.idea/codeStyles
 !.idea/runConfigurations
 
