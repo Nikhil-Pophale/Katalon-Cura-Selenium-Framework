@@ -6,21 +6,27 @@ Email : nikhilpophale01@gmail.com
 
 **Tech stack used described below:**
 
-Java, Selenium, TestNG
+Java 11  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:    &nbsp;&nbsp;Programing language <br />
 
-Maven, AssertJ, POM
+Selenium 4.12.0  &nbsp;&nbsp;:    &nbsp;&nbsp;To automate the browser interactions.<br />
 
-Thread Local Support → Thread Safety
+Maveen &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:    &nbsp;&nbsp;Build & Dependency management<br />
 
-Allure Report
+TestNg  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:    &nbsp;&nbsp;testing framework ( organize and execute Selenium tests.)<br />
 
-TestNG, @Test, Before and After Method.
+JEnkins  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:    &nbsp;&nbsp;Execute the Test Cases<br />
+
+Git      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:    &nbsp;&nbsp;source code management<br />
+
+Allure   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:    &nbsp;&nbsp;to generate reports.<br />
+
+Verification and Checkpoints &nbsp;&nbsp; :&nbsp;&nbsp; AssertJ , SoftAssert 
 
 Run Local and on Jenkins Integration
 
-Secnarios Covered >>
+**Secnarios Covered >>**
 
-![Screenshot (325)](https://github.com/Nikhil-Pophale/Katalon-Cura-Selenium-Framework/assets/141396302/8033d952-ec72-4177-a177-f759ce96c887)
+![Screenshot (325)](https://github.com/Nikhil-Pophale/Katalon-Cura-Selenium-Framework/assets/141396302/8033d952-ec72-4177-a177-f759ce96c887)  <br />
 
 ![Screenshot (326)](https://github.com/Nikhil-Pophale/Katalon-Cura-Selenium-Framework/assets/141396302/49f4571a-c375-45d2-8248-3819af1ff1a4)
 
